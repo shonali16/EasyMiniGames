@@ -1,0 +1,60 @@
+<!-- Deep Bhojani & 8897133 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor | Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="memorygame.html">Memory Matching</a>
+        <a href="rps.html">RockPaperScissors</a>
+        <a href="tictactoe.html">Tic Tac Toe</a>
+
+    </div>
+
+    <div class="titles">
+        <h1> Rock Paper Scissor | Game </h1>
+    </div>
+    <div class="container">
+        <div class="img">
+            <img onclick="rock()" src="images/rock.png" alt="rock">
+            <img onclick="paper()" src="images/paper.png" alt="paper">
+            <img onclick="scissor()" src="images/scissor.png" alt="scissor">
+        </div>
+        <div class="result">
+            <div>
+                <h2>My Score : </h2>
+                <h2 id="myScore">0</h2>
+            </div>
+            <div>
+                <h2>Computer Score : </h2>
+                <h2 id="comScore">0</h2>
+            </div>
+        </div>
+        <div class="game">
+            <div>
+                <h2>User : </h2>
+                <img id="user" alt="">
+            </div>
+            <div>
+                <h2>Computer : </h2>
+                <img id="comp" alt="">
+            </div>
+        </div>
+        <br>
+        <span>
+            <h2>Result : <h2 id="result"></h2>
+            </h2>
+        </span>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

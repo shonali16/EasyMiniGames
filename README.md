@@ -1,4 +1,5 @@
-<video width="320" height="240" controls>
-  <source src="audio/EasyMiniGamesRecord.mp4" type="video/mp4">
-  Your browser does not support the video element.
-</video>
+# Easy Mini Games
+
+Here is a demo of the project:
+
+[![Video Title](https://img.youtube.com/vi/OXv3XAytYak/maxresdefault.jpg)](https://youtu.be/OXv3XAytYak)
